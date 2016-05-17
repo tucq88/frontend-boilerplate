@@ -122,3 +122,8 @@ gulp.task('build', ['styles', 'copy:views', 'copy:scripts', 'copy:styles', 'copy
     .pipe($.if('*.css', $.cleanCss()))
     .pipe(gulp.dest(path.build.partials));
 });
+
+
+//TODO
+// - Add lint JS/SCSS
+// -

@@ -2,7 +2,11 @@
 For general frontend project
 
 # Dev
-`gulp serve`
+```
+npm install
+bower install
+gulp serve
+```
 
 # Build
 `gulp build`
